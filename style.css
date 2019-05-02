@@ -185,18 +185,22 @@ section {
 }
 .meals-showcase,
 .meals-showcase2 {
+  
   display: flex;
   justify-content: flex-start;
   list-style-type: none;
   position: relative;
   right: 40px;
+  background-color: black;
 }
+
 .meals-showcase2 {
   position: relative;
   bottom: 20px;
 }
 .meals-showcase img,
 .meals-showcase2 img {
+  opacity:0.7;
   height: 300px;
   width: 29em;
   /* background-image: rgb(0,0, 0, 0.7); */
@@ -204,7 +208,7 @@ section {
 .meals-showcase img:hover,
 .meals-showcase2 img:hover {
   transition-duration: 0.5s, 0.5s, 0.5s;
-  transform: matrix(1.15, 0, 0, 1.15, 0, 0);
+  transform: scale(1.15);
   transition-property: transform, opacity, transform;
 }
 
